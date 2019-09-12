@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import NewTodoForm from 'components/new-todo-form';
 
 function App() {
   return (
     <div className="App">
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-				Button
-			</button>
+      <NewTodoForm />
     </div>
   );
 }
