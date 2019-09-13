@@ -1,6 +1,6 @@
 import { STORE_NEW_TODO } from './actionTypes';
 
-export const addTodo = newTodo => {
+export const addNewTodo = newTodo => {
   return {
     type: STORE_NEW_TODO,
     newTodo: newTodo
